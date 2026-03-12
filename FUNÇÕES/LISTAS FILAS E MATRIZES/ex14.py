@@ -1,0 +1,8 @@
+t = int(input())
+x = list(map(int, input().split()))
+maior = max(x)
+menor = min(x)
+posicaomenor = x.index(menor)
+posicaomaior = x.index(maior)
+print(f"O maior é {maior} sua posicao é {posicaomaior}")
+print(f"O menor é {menor} sua posicao é {posicaomenor}")

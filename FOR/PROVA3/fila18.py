@@ -1,0 +1,6 @@
+qtd = int(input())
+lista = list(map(int, input().split()))
+menor = min(lista)
+posicao = lista.index(menor)
+print(f"O menor: {menor}")
+print(f"Sua posicao: {posicao}")
