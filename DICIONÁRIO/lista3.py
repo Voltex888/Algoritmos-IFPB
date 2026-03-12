@@ -27,3 +27,4 @@ for a in alunos:
     print(f"CPF: {a['cpf']}")
     print(f"Notas: {a['nota1']}, {a['nota2']}, {a['nota3']}, {a['nota4']}")
     print(f"Média final: {media:.2f}")
+    
