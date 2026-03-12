@@ -1,0 +1,6 @@
+km = int(input())
+if km <= 200:
+    valor = km *0.5
+else:
+    valor = km * 0.45
+print(f"O valor da sua viagem será R$ {valor:.2f}")
